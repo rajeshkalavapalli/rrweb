@@ -127,7 +127,7 @@ body {
 }
 span {
  color: #DA0C81;
- font-size: 20px;
+ font-size: 15px;
 }
 
 .RR{
@@ -157,7 +157,7 @@ span {
 }
 
 .rcms{
-    margin-top: 120px;
+    margin-top: 70px;
 } */
 
 /* Dropdown Styling */
@@ -192,12 +192,12 @@ span {
   .dropdown-content li {
     padding: 10px 20px;
     text-align: left;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #ddd;
+    background-color: #F6F5F2;
+    border-bottom: 1px solid #8B322C;
   }
   
   .dropdown-content li:hover {
-    background-color: #f1f1f1;
+    background-color: #EEEEEE;
   }
   
   /* Credentialing Section Styling */
@@ -208,6 +208,8 @@ span {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+    color: #535C91;
+    margin-left: 50px;
   }
   
   .credentialing {
@@ -234,7 +236,7 @@ span {
   
   .credentialing a {
     text-decoration: none;
-    color: #007bff;
+    color: #B8001F;
     font-weight: bold;
   }
   
@@ -243,5 +245,35 @@ span {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 0 20px;
+  }
+  
+
+  .nav-links li {
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .nav-links li::before, .nav-links li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    background: #B8001F;
+    transition: width 0.4s ease;
+  }
+  
+  .nav-links li::before {
+    left: 50%;
+  }
+  
+  .nav-links li::after {
+    right: 50%;
+  }
+  
+  .nav-links li:hover::before,
+  .nav-links li:hover::after {
+    width: 50%;
   }
   
