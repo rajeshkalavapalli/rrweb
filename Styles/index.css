@@ -1,0 +1,109 @@
+body {
+    font-family: inherit;
+    padding: 0;
+    font-weight: 5px;
+    margin-top: 0%;
+
+   
+}
+
+.navibar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between the logo, links, and button */
+    padding: 5px 25px;
+    color: #1A5319;
+    
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px; /* Space between each link */
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav-links li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.talk a {
+    background-color: #117554; /* Tomato color for the button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    animation: blink 1s infinite;
+    transition: all 0.3s ease;
+    
+}
+
+.talk a:hover {
+    background-color: #B8001F; /* Darker tomato color on hover */
+}
+
+
+.overlay-text {
+    position: absolute; /* Position it over the image */
+    top: 40%; /* Center vertically */
+    left: 33%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to truly center */
+    color: #F0ECE5; /* Make the text visible over the image */
+    background-color: #31304D; /* Optional: add a background for better contrast */
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 3px 3px #F4F27E;
+}
+
+/* Container for the image and heading */
+.image-container {
+    position: relative; /* Allows the child elements to be positioned absolutely */
+    display: inline-block; /* Adjusts the container to the size of the image */
+  }
+  
+  /* Image styling */
+  .background-image {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+  }
+
+  .lead > h2 {
+    text-align: center;
+    margin-top: 75px;
+    color: #31304D;
+    text-shadow: 1px #31304D; 
+  }
+
+  @keyframes blink {
+    0%{
+        opacity: 1;
+        color: #F0ECE5;
+    }
+    50%{
+        opacity: 0;
+        color: #F4F27E;
+    }
+    100%{
+        opacity: 1;
+        color: #F0ECE5;
+    }
+  }
+
+  .custom-line{
+    border: 0;
+    height: 2px;
+    background: #31304D;
+    margin: 40px 0;
+    width: 70%;
+    margin: 40px auto;
+  }
