@@ -13,6 +13,7 @@ body {
     justify-content: space-between; /* Space between the logo, links, and button */
     padding: 5px 25px;
     color: #1A5319;
+    font-family: 16px sans-serif;
     
 }
 
@@ -178,7 +179,7 @@ span {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 160px;
+    min-width: 290px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     list-style: none;
@@ -203,9 +204,9 @@ span {
   /* Credentialing Section Styling */
   .main-credentialing {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 10px;
     max-width: 1200px;
     margin: auto;
     color: #535C91;
@@ -213,6 +214,7 @@ span {
   }
   
   .credentialing {
+    font-size: calc();
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
@@ -242,7 +244,6 @@ span {
   
   /* Add some spacing to the body */
   body {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 0 20px;
   }
@@ -274,6 +275,71 @@ span {
   
   .nav-links li:hover::before,
   .nav-links li:hover::after {
-    width: 50%;
+  width: 50%;
   }
   
+  footer {
+    background-color: #31304D;  /* Dark background color for contrast */
+    color: white;               /* White text for readability */
+    padding: 40px 20px;         /* Padding to give breathing space */
+    text-align: center;         /* Align content to the center */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: left; /* Space out the two divs (address and quick links) */
+    flex-wrap: wrap;                /* Allow wrapping for smaller screens */
+  }
+  
+  .footer-container div {
+    width: 45%;                  /* Adjust width for desktop view */
+    margin-bottom: 20px;          /* Margin between rows */
+  }
+  
+  .address h3, .quick-links h3 {
+    font-size: 24px;              /* Increase the title size */
+    margin-bottom: 15px;
+  }
+  
+  address {
+    font-style: normal;           /* Ensure address text is not italicized */
+    line-height: 1.8;             /* Increase line height for better readability */
+  }
+  
+  h4 {
+    font-size: 16px;              /* Adjust h4 size for phone and email */
+    margin: 10px 0;               /* Spacing between phone/email and address */
+    font-weight: normal;          /* Keep the phone and email text weight normal */
+  }
+  
+  .quick-links ul {
+    list-style: none;             /* Remove default list bullets */
+    padding: 0;                   /* Remove default padding */
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;          /* Add space between the links */
+    cursor: pointer;
+    color: #f1f1f1;               /* Light color for the links */
+    transition: color 0.3s;       /* Smooth transition effect on hover */
+  }
+  
+  .quick-links li:hover {
+    color: #D91656;               /* Change color on hover for interaction */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;     /* Stack elements vertically on smaller screens */
+      text-align: left;           /* Align text to the left on smaller screens */
+    }
+  
+    .footer-container div {
+      width: 100%;                /* Full width for smaller devices */
+    }
+  }
+  
+
+.fa-solid fa-phone {
+    color: #EEEEEE;
+}
