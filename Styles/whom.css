@@ -1,3 +1,4 @@
+/* navi bar */
 body {
   font-family: inherit;
   padding: 0;
@@ -11,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between; 
-  padding: 5px 25px;
+  padding: 2px 15px;
   color: #D63484;
   font-family: 25px Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
@@ -24,17 +25,28 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 20px; 
-  list-style-type: none; 
+  gap: 5px;
+  list-style-type: none;
   padding: 0;
   margin: 0;
-  
+  align-items: center; /* Ensures all items align vertically in the center */
 }
 
 .nav-links li {
+  position: relative;
+  padding: 0 10px; /* Adjusts the spacing around each item */
   cursor: pointer;
-  transition: color 0.3s;
-  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #D63484; /* Customize the color if needed */
+  padding: 5px 0; /* This ensures vertical padding but no extra space horizontally */
+  display: inline-block;
+}
+
+.nav-links a:hover {
+  color: #B8001F; /* Hover color */
 }
 
 .talk a {
@@ -53,41 +65,7 @@ body {
   background-color: #B8001F; 
 }
 
-
-.overlay-text {
-  position: absolute; 
-  top: 80%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  color: #F0ECE5; 
-  background-color: #31304D; 
-  font-size: 24px;
-  text-align: center;
-  border-radius: 10px; 
-  box-shadow: 3px 3px #F4F27E;
-}
-
-/* Container for the image and heading */
-.image-container {
-  position: relative; 
-  display: inline-block; 
-}
-
-/* Image styling */
-.background-image {
-  width: 100%; 
-  height: auto;
-}
-
-.lead > h2 {
-  text-align: center;
-  margin-top: 45px;
-  color: #31304D;
-  text-shadow: 1px #31304D; 
-  font-size: 185%;
-  word-spacing: 5px;    
-}
-
+/* lets talk blink */
 @keyframes blink {
   0%{
       opacity: 1;
@@ -103,82 +81,7 @@ body {
   }
 }
 
-.custom-line{
-  border: 0;
-  height: 2px;
-  background: #B06161;
-  margin: 40px 0;
-  width: 70%;
-  margin: 45px auto;
-  
-  
-}
-
-.intigrate > h2 {
-  text-align: center;
-  color: #164863;
-  font-size: 20px;
-}
-
-.intigrate > p {
-  font-size: 17px;
-  text-wrap: stable;
-  margin-left: 100px;
-  margin-right: 60px;
-  margin-top: 10px;
-  text-align: justify;
-}
-span {
-color: #DA0C81;
-font-size: 15px;
-}
-
-.RR{
-  color: black;
-  font-weight: bold;
-}
-
-.rcms > h1 {
-  text-align: center;
-  color: #164863;
-  font-size: 30px;
-}
-
-.rcms > h2 {
-  text-align: center;
-  color: #164863;
-  font-size: 30px;
-}
-
-.rcms > p {
-  font-size: 21px;
-  text-wrap: stable;
-  margin-left: 100px;
-  margin-right: 60px;
-  margin-top: 10px;
-  text-align: justify;
-  /* font-weight: bold; */
-}
-
-.rcms{
-  margin-top: 40px;
-} */
-
 /* Dropdown Styling */
-.nav-links {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  
-}
-
-.nav-links li {
-  position: relative;
-  padding: 10px;
-  cursor: pointer;
-  
-}
 
 .dropdown .dropdown-content {
   display: none;
@@ -206,63 +109,13 @@ font-size: 15px;
   background-color: #EEEEEE;
 }
 
-/* Credentialing Section Styling */
-.main-credentialing {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  padding: 10px;
-  max-width: 1200px;
-  margin: auto;
-  color: #006BFF;
-  margin-left: 50px;
-  
-}
-
-.credentialing {
-  font-size: calc();
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.credentialing img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.credentialing h2 {
-  font-size: 20px;
-  margin-top: 15px;
-}
-
-.credentialing p {
-  font-size: 18.5px;
-  color: #333;
-  font-family: 'Times New Roman', Times, serif;
-  
-}
-
-.credentialing a {
-  text-decoration: none;
-  color: #B8001F;
-  font-weight: bold;
-}
-
-/* Add some spacing to the body */
-body {
-  line-height: 1.6;
-  padding: 0 20px;
-}
-
-
 .nav-links li {
   position: relative;
   padding: 15px;
   cursor: pointer;
 }
 
+/* navibar  */
 .nav-links li::before, .nav-links li::after {
   content: '';
   position: absolute;
@@ -286,19 +139,20 @@ body {
 width: 50%;
 }
 
+/* footer */
 footer {
   background-color: #2c3e50;  
   color: white;               
   padding: 40px 20px;         
   text-align: center; 
-  margin-top: 25px;        
+  margin-top: 160px;        
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between; 
   flex-wrap: wrap;
-                  
+           
 }
 
 .footer-container div {
@@ -333,7 +187,8 @@ h4 {
 
 .quick-links ul {
   list-style: none;             
-  padding: 0;                   
+  padding: 0;  
+  margin-left: -15px;                 
 }
 
 .quick-links li {
@@ -342,7 +197,7 @@ h4 {
   color: #f1f1f1;               
   transition: color 0.3s; 
   text-align: left; 
-  margin-left: 220px;
+  margin-left: 235px;
 }
 
 .quick-links li:hover {
