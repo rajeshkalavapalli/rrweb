@@ -3,8 +3,8 @@ body {
     padding: 0;
     font-weight: 5px;
     margin-top: 0%;
-
-   
+    line-height: 1.6;
+    padding: 0 20px;
 }
 
 .navibar {
@@ -12,10 +12,8 @@ body {
     align-items: center;
     justify-content: space-between; 
     padding: 5px 25px;
-    color: #D63484;
-    font-family: 25px Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    
+    color: #1A5319;
+    font-family: 16px sans-serif;
 }
 
 .logo img {
@@ -32,9 +30,34 @@ body {
 }
 
 .nav-links li {
+    position: relative;
+    padding: 15px;
     cursor: pointer;
     transition: color 0.3s;
-    
+    text-decoration: none;
+}
+
+.nav-links li::before, .nav-links li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    background: #B8001F;
+    transition: width 0.4s ease;
+}
+
+.nav-links li::before {
+    left: 50%;
+}
+
+.nav-links li::after {
+    right: 50%;
+}
+
+.nav-links li:hover::before,
+.nav-links li:hover::after {
+    width: 50%;
 }
 
 .talk a {
@@ -43,16 +66,13 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, all 0.3s ease;
     animation: blink 1s infinite;
-    transition: all 0.3s ease;
-    
 }
 
 .talk a:hover {
     background-color: #B8001F; 
 }
-
 
 .overlay-text {
     position: absolute; 
@@ -67,51 +87,46 @@ body {
     box-shadow: 3px 3px #F4F27E;
 }
 
-/* Container for the image and heading */
 .image-container {
     position: relative; 
     display: inline-block; 
-  }
-  
-  /* Image styling */
-  .background-image {
+}
+
+.background-image {
     width: 100%; 
     height: auto;
-  }
+}
 
-  .lead > h2 {
+.lead > h2 {
     text-align: center;
     margin-top: 45px;
     color: #31304D;
     text-shadow: 1px #31304D; 
     font-size: 185%;
     word-spacing: 5px;    
-  }
+}
 
-  @keyframes blink {
-    0%{
+@keyframes blink {
+    0% {
         opacity: 1;
         color: #F0ECE5;
     }
-    50%{
+    50% {
         opacity: 0;
         color: #F4F27E;
     }
-    100%{
+    100% {
         opacity: 1;
         color: #F0ECE5;
     }
-  }
+}
 
-  .custom-line{
+.custom-line {
     border: 0;
     height: 2px;
     background: #B06161;
-    margin: 40px 0;
-    width: 70%;
     margin: 45px auto;
-    
-    
+    width: 70%;
 }
 
 .intigrate > h2 {
@@ -122,65 +137,42 @@ body {
 
 .intigrate > p {
     font-size: 17px;
-    text-wrap: stable;
     margin-left: 100px;
     margin-right: 60px;
     margin-top: 10px;
     text-align: justify;
 }
+
 span {
- color: #DA0C81;
- font-size: 15px;
+    color: #DA0C81;
+    font-size: 15px;
 }
 
-.RR{
+.RR {
     color: black;
     font-weight: bold;
 }
 
-.rcms > h1 {
-    text-align: center;
-    color: #164863;
-    font-size: 30px;
-}
-
-.rcms > h2 {
+.rcms > h1, .rcms > h2 {
     text-align: center;
     color: #164863;
     font-size: 30px;
 }
 
 .rcms > p {
-    font-size: 21px;
-    text-wrap: stable;
+    font-size: 16px;
     margin-left: 100px;
     margin-right: 60px;
     margin-top: 10px;
     text-align: justify;
-    /* font-weight: bold; */
 }
 
-.rcms{
+.rcms {
     margin-top: 40px;
-} */
+}
 
 /* Dropdown Styling */
-.nav-links {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-  }
-  
-  .nav-links li {
-    position: relative;
-    padding: 10px;
-    cursor: pointer;
-    
-  }
-  
-  .dropdown .dropdown-content {
+.dropdown .dropdown-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -189,182 +181,136 @@ span {
     z-index: 1;
     list-style: none;
     padding: 0;
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  .dropdown-content li {
+}
+
+.dropdown-content li {
     padding: 10px 20px;
     text-align: left;
     background-color: #F6F5F2;
     border-bottom: 1px solid #8B322C;
-  }
-  
-  .dropdown-content li:hover {
+}
+
+.dropdown-content li:hover {
     background-color: #EEEEEE;
-  }
-  
-  /* Credentialing Section Styling */
-  .main-credentialing {
+}
+
+/* Credentialing Section Styling */
+.main-credentialing {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     padding: 10px;
     max-width: 1200px;
     margin: auto;
-    color: #006BFF;
+    color: #535C91;
     margin-left: 50px;
-    
-  }
-  
-  .credentialing {
-    font-size: calc();
+}
+
+.credentialing {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .credentialing img {
+}
+
+.credentialing img {
     width: 100%;
     border-radius: 10px;
-  }
-  
-  .credentialing h2 {
+}
+
+.credentialing h2 {
     font-size: 20px;
     margin-top: 15px;
-  }
-  
-  .credentialing p {
-    font-size: 18.5px;
+}
+
+.credentialing p {
+    font-size: 16px;
     color: #333;
-    font-family: 'Times New Roman', Times, serif;
-    
-  }
-  
-  .credentialing a {
+}
+
+.credentialing a {
     text-decoration: none;
     color: #B8001F;
     font-weight: bold;
-  }
-  
-  /* Add some spacing to the body */
-  body {
-    line-height: 1.6;
-    padding: 0 20px;
-  }
-  
+}
 
-  .nav-links li {
-    position: relative;
-    padding: 15px;
-    cursor: pointer;
-  }
-  
-  .nav-links li::before, .nav-links li::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    background: #B8001F;
-    transition: width 0.4s ease;
-  }
-  
-  .nav-links li::before {
-    left: 50%;
-  }
-  
-  .nav-links li::after {
-    right: 50%;
-  }
-  
-  .nav-links li:hover::before,
-  .nav-links li:hover::after {
-  width: 50%;
-  }
-  
-  footer {
+/* Footer Styling */
+footer {
     background-color: #2c3e50;  
     color: white;               
     padding: 40px 20px;         
     text-align: center; 
     margin-top: 25px;        
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
-                    
-  }
-  
-  .footer-container div {
+}
+
+.footer-container div {
     width: 45%;                  
     margin-bottom: 15px;          
-  }
-  
-  .address h3, .quick-links h3 {
+}
+
+.address h3, .quick-links h3 {
     font-size: 24px;              
     margin-bottom: 15px;
-    
-  }
-  
-  address {
+}
+
+address {
     font-style: normal;          
     line-height: 1.8;
     text-align: left; 
     margin-left: 15px;            
-  }
-  
-  .address{
+}
+
+.address {
     text-align: left;
     margin-left: 15px;
-  }
-  h4 {
+}
+
+h4 {
     font-size: 16px;              
     margin: 10px 0;               
     font-weight: normal;
-     
-             
-  }
-  
-  .quick-links ul {
+}
+
+.quick-links ul {
     list-style: none;             
     padding: 0;                   
-  }
-  
-  .quick-links li {
+}
+
+.quick-links li {
     margin-bottom: 10px;          
     cursor: pointer;
     color: #f1f1f1;               
     transition: color 0.3s; 
     text-align: left; 
     margin-left: 220px;
-  }
-  
-  .quick-links li:hover {
+}
+
+.quick-links li:hover {
     color: #D91656;             
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .footer-container {
-      flex-direction: column;     
-      text-align: left;           
+        flex-direction: column;     
+        text-align: left;           
     }
-  
     .footer-container div {
-      width: 100%; 
-                     
+        width: 100%; 
     }
-  }
+}
 
-
-/* copy rights  */
-
+/* Copy Rights */
 .copy > h4 {
     text-align: center;
-   color: #E90074;
+    color: #E90074;
 }
