@@ -1,0 +1,255 @@
+/* navi bar */
+body {
+    font-family: inherit;
+    padding: 0;
+    font-weight: 5px;
+    margin-top: 0%;
+  
+   
+  }
+  
+  .navibar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 2px 15px;
+    color: #D63484;
+    font-family: 25px Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center; /* Ensures all items align vertically in the center */
+  }
+  
+  .nav-links li {
+    position: relative;
+    padding: 0 10px; /* Adjusts the spacing around each item */
+    cursor: pointer;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #D63484; /* Customize the color if needed */
+    padding: 5px 0; /* This ensures vertical padding but no extra space horizontally */
+    display: inline-block;
+  }
+  
+  .nav-links a:hover {
+    color: #B8001F; /* Hover color */
+  }
+  
+  .talk a {
+    background-color: #117554; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    animation: blink 1s infinite;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .talk a:hover {
+    background-color: #B8001F; 
+  }
+  
+  /* lets talk blink */
+  @keyframes blink {
+    0%{
+        opacity: 1;
+        color: #F0ECE5;
+    }
+    50%{
+        opacity: 0;
+        color: #F4F27E;
+    }
+    100%{
+        opacity: 1;
+        color: #F0ECE5;
+    }
+  }
+  
+  /* Dropdown Styling */
+  
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 390px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    padding: 10px 20px;
+    text-align: left;
+    background-color: #F6F5F2;
+    border-bottom: 1px solid #8B322C;
+  }
+  
+  .dropdown-content li:hover {
+    background-color: #EEEEEE;
+  }
+  
+  .nav-links li {
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  /* navibar  */
+  .nav-links li::before, .nav-links li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    background: #B8001F;
+    transition: width 0.4s ease;
+  }
+  
+  .nav-links li::before {
+    left: 50%;
+  }
+  
+  .nav-links li::after {
+    right: 50%;
+  }
+  
+  .nav-links li:hover::before,
+  .nav-links li:hover::after {
+  width: 50%;
+  }
+  
+  /* footer */
+  footer {
+    background-color: #2c3e50;  
+    color: white;               
+    padding: 40px 20px;         
+    text-align: center; 
+    margin-top: 160px;        
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+             
+  }
+  
+  .footer-container div {
+    width: 45%;                  
+    margin-bottom: 15px;          
+  }
+  
+  .address h3, .quick-links h3 {
+    font-size: 24px;              
+    margin-bottom: 15px;
+    
+  }
+  
+  address {
+    font-style: normal;          
+    line-height: 1.8;
+    text-align: left; 
+    margin-left: 15px;            
+  }
+  
+  .address{
+    text-align: left;
+    margin-left: 15px;
+  }
+  h4 {
+    font-size: 16px;              
+    margin: 10px 0;               
+    font-weight: normal;
+     
+             
+  }
+  
+  .quick-links ul {
+    list-style: none;             
+    padding: 0;  
+    margin-left: -15px;                 
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;          
+    cursor: pointer;
+    color: #f1f1f1;               
+    transition: color 0.3s; 
+    text-align: left; 
+    margin-left: 235px;
+  }
+  
+  .quick-links li:hover {
+    color: #D91656;             
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;     
+      text-align: left;           
+    }
+  
+    .footer-container div {
+      width: 100%; 
+                     
+    }
+  }
+  
+  
+  /* copy rights  */
+  
+  .copy > h4 {
+    text-align: center;
+   color: #E90074;
+  }
+  
+  /* remove underline anchor tag */
+  /* Removes underline for all anchor tags */
+  a {
+    text-decoration: none;
+    color: inherit; /* Keeps the text color consistent */
+  }
+  
+  /* Specific styling for navigation bar links */
+  .nav-links a {
+    color: #D63484; /* Customize the color if necessary */
+    padding: 15px;
+    display: inline-block;
+  }
+  
+  .nav-links a:hover {
+    color: #B8001F; /* Color change on hover */
+  }
+  
+  /* Footer anchor styling */
+  .quick-links a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding-left: 15px; /* Adjust for alignment if needed */
+  }
+  
+  .quick-links a:hover {
+    color: #D91656; /* Color change on hover */
+  }
