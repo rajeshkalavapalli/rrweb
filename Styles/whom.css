@@ -223,3 +223,33 @@ h4 {
   text-align: center;
  color: #E90074;
 }
+
+/* remove underline anchor tag */
+/* Removes underline for all anchor tags */
+a {
+  text-decoration: none;
+  color: inherit; /* Keeps the text color consistent */
+}
+
+/* Specific styling for navigation bar links */
+.nav-links a {
+  color: #D63484; /* Customize the color if necessary */
+  padding: 15px;
+  display: inline-block;
+}
+
+.nav-links a:hover {
+  color: #B8001F; /* Color change on hover */
+}
+
+/* Footer anchor styling */
+.quick-links a {
+  color: #f1f1f1;
+  text-decoration: none;
+  display: block;
+  padding-left: 15px; /* Adjust for alignment if needed */
+}
+
+.quick-links a:hover {
+  color: #D91656; /* Color change on hover */
+}
