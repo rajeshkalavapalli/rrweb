@@ -307,12 +307,13 @@ font-size: 18px;
   position: relative; 
   display: inline-block; 
   margin-left: 3px;
+  
 }
 
 /* Image styling */
 .background-image {
   width: 1320px; 
-  height: 350px;
+  height: 420px;
 
 }
 

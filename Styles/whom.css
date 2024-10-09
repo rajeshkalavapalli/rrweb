@@ -29,24 +29,24 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  align-items: center; /* Ensures all items align vertically in the center */
+  align-items: center; 
 }
 
 .nav-links li {
   position: relative;
-  padding: 0 10px; /* Adjusts the spacing around each item */
+  padding: 0 10px; 
   cursor: pointer;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #D63484; /* Customize the color if needed */
-  padding: 5px 0; /* This ensures vertical padding but no extra space horizontally */
+  color: #D63484; 
+  padding: 5px 0; 
   display: inline-block;
 }
 
 .nav-links a:hover {
-  color: #B8001F; /* Hover color */
+  color: #B8001F; 
 }
 
 .talk a {
@@ -228,18 +228,18 @@ h4 {
 /* Removes underline for all anchor tags */
 a {
   text-decoration: none;
-  color: inherit; /* Keeps the text color consistent */
+  color: inherit; 
 }
 
 /* Specific styling for navigation bar links */
 .nav-links a {
-  color: #D63484; /* Customize the color if necessary */
+  color: #D63484; 
   padding: 15px;
   display: inline-block;
 }
 
 .nav-links a:hover {
-  color: #B8001F; /* Color change on hover */
+  color: #B8001F; 
 }
 
 /* Footer anchor styling */
@@ -247,9 +247,9 @@ a {
   color: #f1f1f1;
   text-decoration: none;
   display: block;
-  padding-left: 15px; /* Adjust for alignment if needed */
+  padding-left: 15px; 
 }
 
 .quick-links a:hover {
-  color: #D91656; /* Color change on hover */
+  color: #D91656; 
 }

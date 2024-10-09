@@ -253,3 +253,20 @@ a {
 .quick-links a:hover {
   color: #D91656; /* Color change on hover */
 }
+
+.bpo-img{
+ width: 100%;
+ height: 460px;
+}
+
+.bpo-head{
+  text-align: center;
+  margin-top: 45px;
+  color: #D91656;
+  
+}
+.bpo-plan{
+  text-align: center;
+  margin-left: 100px;
+  color: #333;
+}
