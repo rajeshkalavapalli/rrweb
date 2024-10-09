@@ -253,3 +253,128 @@ a {
 .quick-links a:hover {
   color: #D91656; /* Color change on hover */
 }
+
+
+/* head and text  start*/
+.lead > h2 {
+  text-align: center;
+  margin-top: 65px;
+  color: #4158A6;
+  font-size: 185%;
+  word-spacing: 5px;    
+}
+
+.custom-line{
+  border: 0;
+  height: 2px;
+  background: #B06161;
+  margin: 40px 0;
+  width: 70%;
+  margin: 45px auto;
+  
+}
+
+.intigrate > h2 {
+  text-align: center;
+  color: hsl(201, 64%, 24%);
+  font-size: 20px;
+  
+}
+
+.intigrate > p {
+  font-size: 17px;
+  text-wrap: stable;
+  margin-left: 100px;
+  margin-right: 60px;
+  margin-top: 10px;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+span {
+color: #DA0C81;
+font-size: 18px;
+}
+
+.RR{
+  color: black;
+  font-weight: bold;
+}
+
+/* head and text ende */
+
+.image-container {
+  position: relative; 
+  display: inline-block; 
+  margin-left: 3px;
+}
+
+/* Image styling */
+.background-image {
+  width: 1320px; 
+  height: 350px;
+
+}
+
+/* Define keyframes for zoom-in */
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Apply zoom-in animation */
+.lead h2 {
+  animation: zoomIn 1s ease-out;
+}
+
+/* Optionally: Add hover effect for interaction */
+.lead h2:hover {
+  transform: scale(1.1); /* Slight zoom when hovered */
+}
+
+
+.ab {
+  position: relative; /* Set the position for absolute positioning of the line */
+  margin-left: 120px; /* Left margin */
+  margin-top: 45px; /* Top margin */
+  padding: 2px; /* Padding around the container */
+}
+
+.ab > h2 {
+  margin: 0; /* Removes default margin */
+  color: black; /* Color of the heading text */
+  position: relative; /* Position relative for the line to overlap */
+  z-index: 4; /* Ensure the text is above the line */
+}
+
+.line-ab {
+  width: 60%;
+  margin-top: 0;
+  position: absolute; /* Position absolute for overlap */
+  bottom: 0.2; /* Align the line at the bottom of the h2 */
+  right: 480px; /* Make the line stretch to the right */
+  height: 1px; /* Height of the line */
+  background: #FF4E88; /* Color of the line */
+  z-index: 0; /* Ensure the line is below the text */
+}
+
+.solution {
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start; /* Align items to the start to reduce vertical space */
+  margin: 20px 0; /* Adjust top and bottom margins as needed */
+}
+
+.sol-img {
+  margin-right: 20px; /* Adjust the space between the image and text */
+}
+
+.intigrate {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
