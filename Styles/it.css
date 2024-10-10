@@ -253,3 +253,8 @@ a {
 .quick-links a:hover {
   color: #D91656; /* Color change on hover */
 }
+
+.it-img-con{
+  width: 100%;
+  height: 500px;
+}

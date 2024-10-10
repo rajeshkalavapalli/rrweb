@@ -29,24 +29,24 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    align-items: center; /* Ensures all items align vertically in the center */
+    align-items: center; 
   }
   
   .nav-links li {
     position: relative;
-    padding: 0 10px; /* Adjusts the spacing around each item */
+    padding: 0 10px; 
     cursor: pointer;
   }
   
   .nav-links a {
     text-decoration: none;
-    color: #D63484; /* Customize the color if needed */
-    padding: 5px 0; /* This ensures vertical padding but no extra space horizontally */
+    color: #D63484; 
+    padding: 5px 0; 
     display: inline-block;
   }
   
   .nav-links a:hover {
-    color: #B8001F; /* Hover color */
+    color: #B8001F; 
   }
   
   .talk a {
@@ -228,18 +228,18 @@ body {
   /* Removes underline for all anchor tags */
   a {
     text-decoration: none;
-    color: inherit; /* Keeps the text color consistent */
+    color: inherit; 
   }
   
-  /* Specific styling for navigation bar links */
+ 
   .nav-links a {
-    color: #D63484; /* Customize the color if necessary */
+    color: #D63484; 
     padding: 15px;
     display: inline-block;
   }
   
   .nav-links a:hover {
-    color: #B8001F; /* Color change on hover */
+    color: #B8001F; 
   }
   
   /* Footer anchor styling */
@@ -247,11 +247,11 @@ body {
     color: #f1f1f1;
     text-decoration: none;
     display: block;
-    padding-left: 15px; /* Adjust for alignment if needed */
+    padding-left: 15px; 
   }
   
   .quick-links a:hover {
-    color: #D91656; /* Color change on hover */
+    color: #D91656; 
   }
 
 /* login */
@@ -277,54 +277,54 @@ body {
   margin-left: 480px;
   margin-top: 45px;
   button {
-    background-color: #0B666A; /* Green button color */
-    color: white; /* White text color */
-    padding: 10px; /* Padding inside the button */
-    border: none; /* Remove default border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    width: 100%; /* Full width for button */
+    background-color: #0B666A; 
+    color: white; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    width: 100%; 
 }
 
 button:hover {
-    background-color: #35A29F; /* Darker green on hover */
+    background-color: #35A29F; 
 }
 }
 
 h2 {
-  text-align: center; /* Center the heading */
-  color: #333; /* Dark gray color for text */
+  text-align: center; 
+  color: #333; 
 }
 
 .input-group {
-  margin-bottom: 15px; /* Space between input groups */
+  margin-bottom: 15px; 
 }
 
 label {
   text-align: left;
-  display: block; /* Block display for labels */
-  margin-bottom: 6px; /* Space below the label */
-  color: #555; /* Medium gray color for labels */
+  display: block;
+  margin-bottom: 6px;
+  color: #555; 
 }
 
 input[type="text"],
 input[type="password"] {
-    width: 100%; /* Full width for inputs */
-    padding: 10px; /* Padding inside the inputs */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 4px; /* Slightly rounded corners */
-    box-sizing: border-box; /* Includes padding in width calculation */
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
 }
 
 
 button {
-  background-color: #28a745; /* Green button color */
-  color: white; /* White text color */
-  padding: 10px; /* Padding inside the button */
-  border: none; /* Remove default border */
-  border-radius: 4px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  width: 100%; /* Full width for button */
+  background-color: #28a745; 
+  color: white; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 4px;
+  cursor: pointer; 
+  width: 100%; 
 }
 
 button:hover {
@@ -339,11 +339,11 @@ button:hover {
 }
 
 .checkbox input[type="checkbox"] {
-  margin-right: 20px; 
+  margin-right: 15px; 
 }
 
 .checkbox > label {
-  margin-right: 20px; 
+  margin-right: 15px; 
 }
 
 .checkbox > a {

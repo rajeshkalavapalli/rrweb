@@ -7,8 +7,8 @@ document.querySelector('form').addEventListener('submit', function (event) {
     if (username === '' || password === '') {
         alert('Please fill in both fields.');
     } else {
-        // Proceed with form submission (this is where you would handle the actual login logic)
+        // Proceed with form 
         alert('Logging in...');
-        this.submit(); // Uncomment this to allow form submission after validation
+        this.submit(); 
     }
 });
