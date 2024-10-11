@@ -253,3 +253,18 @@ a {
 .quick-links a:hover {
   color: #D91656; /* Color change on hover */
 }
+
+.under > img{
+  width: 80%;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+.under > h1{
+  text-align: center;
+  color: #EBB02D;
+  font-size: 40px;
+ 
+}
+

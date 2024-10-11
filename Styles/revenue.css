@@ -300,3 +300,85 @@ a {
   width: 100%;
   height: 500px;
 }
+
+/* Container to hold both sections */
+.overall-container {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space out the sections */
+  align-items: flex-start; /* Align the items at the top */
+  padding: 20px; /* Add some padding around the container */
+}
+
+/* Styling for Overall section */
+.Overall {
+  width: 60%; /* Give 60% width to the text section */
+}
+
+/* Styling for Request section */
+.request {
+  margin-right: 55px;
+  color: #B46060;
+  width: 30%; /* Give 35% width to the form section */
+  padding-left: 20px; /* Space between text and form */
+}
+.request > P {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0;
+}
+
+
+.rcm-container {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex; /* Enables flexbox layout */
+  align-items: flex-start; /* Aligns items to the top of the container */
+  margin: 20px; /* Optional margin around the container */
+}
+
+.rcm-container img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 30px;
+}
+
+.request {
+  margin-left: 120px; /* Adjust this value to move the form away from the image */
+  color: #002B5B; /* Text color */
+  width: 35%; /* Adjust width as needed */
+}
+
+.request h2 {
+  color: #EB455F; /
+  
+}
+
+.request p {
+  margin-bottom: 15px; /* Space between paragraph and inputs */
+}
+
+.request label {
+  display: block; /* Ensure labels are on new lines */
+  margin-top: 10px; /* Space above labels */
+}
+
+.request input[type="text"],
+.request input[type="number"],
+.request input[type="email"] {
+  width: 80%; /* Full width minus padding */
+  padding: 8px; /* Less padding for inputs */
+  margin-bottom: 10px; /* Space below each input */
+  border: 1px solid #ccc; /* Basic border styling */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+.request input[type="submit"] {
+  background-color: #117554; /* Submit button color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  padding: 8px 12px; /* Less padding for button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  width:85%;
+}
+
+
+

@@ -264,17 +264,25 @@ a {
   margin-top: 45px;
   
 }
-
+.ad >p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+  margin-left: 140px;
+  margin-right: 140px;
+  text-align: justify;
+  
+}
 .ad >h2{
   color: #D91656;
 }
 
-.ad > p{
+.ad > li{
   font-family: 'Times New Roman', Times, serif;
   font-size: 19px;
-  margin-left: 25px;
+  margin-left: 140px;
   margin-right: 25px;
   text-align: justify;
+  
 }
 .bpo-plan{
   text-align: center;
@@ -313,4 +321,98 @@ a {
   list-style-type: none;
   color: aqua;
   line-height: 1.6;
+  
+}
+
+.how {
+  text-align: center; /* Center the entire section */
+  margin-bottom: 20px; /* Add some space below the section */
+}
+
+.main-heading {
+  font-size: 35px;
+  text-align: left;
+  margin-left: 150px;
+  color: #D91656;
+  margin-bottom: 20px; /* Add space between the heading and the content below */
+}
+
+.how-content {
+  margin-top: 25px;
+  display: flex; /* Flexbox for side-by-side layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-start; /* Align the items at the top */
+  gap: 40px; /* Space between the image and text */
+}
+
+.how img {
+  width: 300px; /* Adjust image size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.how ul {
+  list-style-type: disc; /* Bullet points for the list */
+  text-align: left; /* Align text to the left */
+  padding-left: 20px; /* Add space before the bullet points */
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.9;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+
+/* Container to hold both sections */
+.overall-container {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space out the sections */
+  align-items: flex-start; /* Align the items at the top */
+  padding: 20px; /* Add some padding around the container */
+}
+
+/* Styling for Overall section */
+.Overall {
+  width: 60%; /* Give 60% width to the text section */
+}
+
+/* Styling for Request section */
+.request {
+  margin-right: 55px;
+  color: #B46060;
+  width: 30%; /* Give 35% width to the form section */
+  padding-left: 20px; /* Space between text and form */
+}
+.request > P {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0;
+}
+
+
+/* Styling for form elements */
+form {
+  display: flex;
+  flex-direction: column; /* Stack the form elements vertically */
+}
+
+form label {
+  margin-top: px; /* Space above each label */
+  color: #262A56;
+}
+
+form input {
+  padding: 8px; /* Padding inside input fields */
+  margin-top: 2px; /* Space above each input field */
+}
+
+form input[type="submit"] {
+  margin-top: 7px; /* Space above the submit button */
+  background-color: #007BFF; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  padding: 9px; /* Padding inside button */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker color on hover */
 }

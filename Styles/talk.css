@@ -251,5 +251,77 @@ a {
 }
 
 .quick-links a:hover {
-  color: #D91656; /* Color change on hover */
+  color: #D91656; 
+}
+
+
+
+
+/* Styling for Request section */
+.request {
+  margin-right: 55px;
+  color: #B46060;
+  width: 30%; 
+  padding-left: 20px; 
+}
+.request > P {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0;
+}
+
+
+/* Styling for form elements */
+form {
+  display: flex;
+  flex-direction: column; 
+}
+
+form label {
+  margin-top: px; 
+  color: #262A56;
+}
+
+form input {
+  padding: 8px; 
+  margin-top: 2px; 
+}
+
+form input[type="submit"] {
+  margin-top: px; /* Space above the submit button */
+  background-color: #007BFF; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  padding: 9px; /* Padding inside button */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+
+.talk-container{
+  display: flex;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.talk-img{
+width: 800px;
+height: 450px;
+
+}
+
+
+
+.talk-head> h1{
+  color: #EBB02D;
+  font-size: 50px;
+  margin-top: 0;
+}
+.talk-head> p{
+  color: #1A5F7A;
+  font-size: 22px;
+  margin-top: 0;
+  text-align: justify;
 }
