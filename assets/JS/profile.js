@@ -1,86 +1,110 @@
-// Chart.js for performance overview
+document.getElementById('changeProfileImageBtn').addEventListener('click', () => {
+    document.getElementById('uploadProfileImage').click();
+  });
+  
+  document.getElementById('uploadProfileImage').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById('profileImage').src = e.target.result; // Update profile image
+      }
+      reader.readAsDataURL(file); // Read the image file
+    }
+  });
+  
+
+
+
+// Add this to your profile.js or in a script tag at the bottom of the HTML
+
+const modeToggle = document.getElementById('modeToggle');
+const body = document.body;
+
+modeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    modeToggle.textContent = body.classList.contains('dark-mode') 
+        ? 'Switch to Light Mode' 
+        : 'Switch to Dark Mode';
+});
+
+
+
+// Initialize the performance chart with dynamic data
 const ctx = document.getElementById('performanceChart').getContext('2d');
+
+// Sample Data for the Performance (replace with your actual data)
+const dailyTasksCompleted = 12;
+const dailyTarget = 20;
+const weeklyTasksCompleted = 60;
+const weeklyTarget = 100;
+
+// Bar Chart configuration
 const performanceChart = new Chart(ctx, {
-    type: 'doughnut',
+    type: 'bar',  // Use 'bar' for a bar chart (you can change this to 'line', 'pie', etc.)
     data: {
-        labels: ['Completed', 'Remaining'],
+        labels: ['Daily Target', 'Weekly Target'],  // Labels for the bars
         datasets: [{
-            data: [12, 8],
-            backgroundColor: ['#28a745', '#ff6347'],
-            borderWidth: 1
+            label: 'Task Completion',
+            data: [dailyTasksCompleted, weeklyTasksCompleted],  // Task completion data
+            backgroundColor: ['rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)'],  // Bar colors
+            borderColor: ['rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)'],  // Border colors
+            borderWidth: 1  // Border width of the bars
         }]
     },
     options: {
-        responsive: true,
-        plugins: {
-            legend: {
-                display: true,
-                position: 'top',
+        scales: {
+            y: {
+                beginAtZero: true,  // Ensure the Y-axis starts at 0
+                max: Math.max(dailyTarget, weeklyTarget),  // Set maximum based on the largest target
             }
         }
     }
 });
 
-// Dark/Light Mode Toggle
-const toggleButton = document.getElementById('modeToggle');
-const body = document.body;
-
-toggleButton.addEventListener('click', () => {
-    body.classList.toggle('dark-mode');
-    if (body.classList.contains('dark-mode')) {
-        toggleButton.textContent = 'Switch to Light Mode';
-    } else {
-        toggleButton.textContent = 'Switch to Dark Mode';
-    }
-});
-
-// Profile Customization - Background Change
-const customizeBtn = document.querySelector('.customize-btn');
-const backgroundImageInput = document.getElementById('backgroundImageInput');
-
-customizeBtn.addEventListener('click', () => {
-    backgroundImageInput.click();
-});
-
-backgroundImageInput.addEventListener('change', (event) => {
-    const file = event.target.files[0];
-    if (file) {
-        const reader = new FileReader();
-        reader.onload = function (e) {
-            document.body.style.backgroundImage = `url(${e.target.result})`;
-        };
-        reader.readAsDataURL(file);
-    }
-});
 
 
-document.getElementById('submitExplanation').addEventListener('click', function() {
+//attend
+
+// Add this to your profile.js
+
+const targetStatus = document.getElementById('targetStatus');
+const explanationSection = document.getElementById('explanationSection');
+
+if (targetStatus.textContent.includes('Not Met')) {
+    explanationSection.style.display = 'block';
+}
+
+document.getElementById('submitExplanation').addEventListener('click', () => {
     const explanation = document.getElementById('explanation').value;
-
-    if (explanation.trim() === '') {
-        alert("Please provide an explanation.");
+    if (explanation) {
+        alert('Explanation submitted: ' + explanation);
     } else {
-        // Send the explanation to the backend using Fetch API (or any other method)
-        fetch('/submit-explanation', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                explanation: explanation,
-                employeeId: 'E12345', // Example employee ID
-                remainingTasks: remainingTasks,
-            }),
-        })
-        .then(response => response.json())
-        .then(data => {
-            alert("Explanation submitted successfully.");
-            document.getElementById('explanation').value = ''; // Clear the textarea
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+        alert('Please provide an explanation.');
     }
 });
 
+//leave
 
+// Add this to your leave.js
+
+const leaveType = document.getElementById('leaveType');
+const leaveExplanationSection = document.getElementById('leaveExplanationSection');
+
+leaveType.addEventListener('change', () => {
+    if (leaveType.value === 'sick') {
+        leaveExplanationSection.style.display = 'block';
+    } else {
+        leaveExplanationSection.style.display = 'none';
+    }
+});
+
+document.getElementById('submitLeaveBtn').addEventListener('click', () => {
+    const leaveStart = document.getElementById('leaveDateStart').value;
+    const leaveEnd = document.getElementById('leaveDateEnd').value;
+    if (leaveStart && leaveEnd) {
+        alert(`Leave request submitted from ${leaveStart} to ${leaveEnd}`);
+    } else {
+        alert('Please select the leave dates.');
+    }
+});

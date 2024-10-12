@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://odis-healthcare.com/Services -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiropractic Billing Services | Mental Health Billing</title>
+    <meta name="description" content="We specialize in Chiropractic Billing Services, with a 
+          proficient team experienced in Mental Health Billing, Provider Credentialing, and Enrollment Services.">
+    <meta name="keywords" content="Medical Billing Services, Medical Coding Services, Mental Health Billing, Provider Credentialing &amp; Enrollment Services">
+    <meta name="author" content="Odis Healthcare">
+    <link rel="stylesheet" href="./bpo4_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./bpo4_files/flaticon.css">
+    <link rel="stylesheet" href="./bpo4_files/boxicons.min.css">
+    <link rel="stylesheet" href="./bpo4_files/animate.min.css">
+    <link rel="stylesheet" href="./bpo4_files/owl.carousel.min.css">
+    <link rel="stylesheet" href="./bpo4_files/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./bpo4_files/magnific-popup.min.css">
+    <link rel="stylesheet" href="./bpo4_files/odometer.min.css">
+    <link rel="stylesheet" href="./bpo4_files/meanmenu.min.css">
+    <link rel="stylesheet" href="./bpo4_files/style.css">
+
+    <script src="./bpo4_files/jquery.min.js.download"></script>
+    <script src="./bpo4_files/bootstrap.bundle.min.js.download"></script>
+
+    <script src="./bpo4_files/form-validator.min.js.download"></script>
+</head>
+<body>
+    <div class="preloader" style="display: none;">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="top-header top-header-bg-two">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-sm-7">
+                    <div class="header-left header-left-color">
+                        <ul>
+                            <li>
+                                <i class="flaticon-phone-call"></i>
+                                <a href="tel:+18182756431">+1 (818) 275-6431</a>
+                            </li>
+                            <li>
+                                <i class="flaticon-email"></i>
+                                <a href="mailto:info@odis-healthcare.com">info@odis-healthcare.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-5">
+                    <div class="header-right">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=61564233868616&amp;mibextid=ZbWKwL" target="_blank">
+                                    <i class="bx bxl-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/odis_business_solutions/" target="_blank">
+                                    <i class="bx bxl-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="_blank">
+                                    <i class="bx bxl-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/odis-business-solutions/posts/?feedView=all" target="_blank">
+                                    <i class="bx bxl-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="navbar-area navbar-two">
+        <div class="mobile-responsive-nav">
+            <div class="container-fluid">
+                <div class="mobile-responsive-menu">
+                    <div class="logo">
+                        <a href="https://odis-healthcare.com/" asp-action="Index">
+                            <img src="./bpo4_files/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="desktop-nav nav-area">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <a class="navbar-brand" href="https://odis-healthcare.com/" asp-action="Index">
+                        <img src="./bpo4_files/logo.png" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: block;">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="https://odis-healthcare.com/" asp-action="Index" class="nav-link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://odis-healthcare.com/About" asp-action="Index" class="nav-link">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://odis-healthcare.com/Services" asp-action="Index" class="nav-link">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://odis-healthcare.com/Contact" asp-action="Index" class="nav-link">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="mobile-nav-area">
+                            <div class="mobile-btn">
+                                <a href="https://odis-healthcare.com/Contact" asp-action="Index" class="default-btn border-radius-5">Free Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="inner-banner inner-before2 inner-bg8">
+        <div class="container">
+            <div class="inner-title inner-title2 text-center">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <a href="https://odis-healthcare.com/" asp-action="Index">Home</a>
+                    </li>
+                    <li> Services</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="services-area pt-100 pb-70">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <span class="sp-title">Services</span>
+                        <h2>Revenue Cycle Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-45">
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Insurance Verification</h2>
+                        <p>
+                            Insurance verification is an important step to ensure the timely reimbursement of claims.
+                            Our dedicated verification specialist will confirm eligibility accurately and bill primary payors on your behalf.
+                            We have an exceptional team of expert medical billers who take the required steps to
+                            guarantee insurance eligibility verification is accurate in the first instance.
+                            <br>
+                            We can verify the below information along with 'Insurance verification' process depending on
+                            the providers' specialty:
+                        </p>
+                        <ul class="services-tab-list">
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Payable benefits </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Patient co-pays </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Co-insurance </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Plan deductibles </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Patient policy status </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Effective policy date </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Type of plan and coverage details </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Plan exclusions or exceptions </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Referrals &amp; pre-authorizations </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Mailing address for filing medical insurance claims </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Lifetime medical insurance maximum </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Patient Registration</h2>
+                        <p>
+                            The accuracy while capturing patient details is perhaps one of the most under-rated processes
+                            in the revenue cycle chain. The data captured ensures a strong medical record for the patient
+                            which in turn affects insurance reimbursements. Error-free capture of patient information is
+                            essential for clean claim submission and facilitates quick claims processing by Payers.
+                        </p>
+                        <p>
+                            Our team understands that kick starting an effective revenue management process starts here.
+                            They get the below information as part of the process:
+                        </p>
+                        <ul class="services-tab-list">
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Patient Demographic Details</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Name, gender, address, phone numbers</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Social security number</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Insurance information</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Name of the insurance company, insured person, address on file, ad policy information</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Medicare/Medicaid cards</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Payment information</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Name, address, and phone of the individual responsible for payments</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Charge Entry &amp; Charge Audit</h2>
+                        <p>
+                            Failure to effectively document care information can lead to revenue leakage – amounting
+                            to millions of dollars of lost revenue. While deploying effective charge capture, workflow
+                            solutions can help reduce instances of lost revenue. Also, effective collaboration between
+                            coding and charge entry teams leads to a sustainable improvement in the overall process.
+                        </p>
+                        <p>
+                            With expertise in multiple charge entry platforms, our team process a high volume of charge
+                            entry transactions with exceptional quality.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2>Charge Capture</h2>
+                                Our charge entry transactions remain consistent throughout:
+                                <ul class="services-tab-list">
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Receive documents in the form of superbills, charge tickets, source documents etc. through FTP, document management systems or client’s software.</li>
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Capture the date of service, billing provider, referring provider, POS, admission date, CPT/procedure codes, ICD-10, number of units and modifiers.</li>
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Provide real-time reporting to the client and flag any issues which results in faster turnaround time.</li>
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Import charges directly from the EMR/EHR. These charges are reviewed for accuracy before sent for billing.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Charge Audit</h2>
+                                Leverage ODIS’s Charge Audit services to identify missed charges, instances of over-billing,
+                                and coding errors that lead to revenue loss.
+
+                                We take an analytical approach to:
+                                <ul class="services-tab-list">
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Validate written orders for the level of care, and all treatments rendered</li>
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Necessary modifiers are appended, and the exact number of units are billed</li>
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Comparing charges by patient’s accounts</li>
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Verifying charges against updated fee schedule</li>
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Identifying undercharges, duplicate posting, and overcharges</li>
+                                    <li><i class="flaticon-arrow-pointing-to-right"></i> Verifying the charges with various department billers and coders</li>
+                                </ul>
+                                <p>
+                                    Charge Audits help reveal the causes for variances in payments including problems with charge
+                                    entry, provider absences, failure by providers office to report charges in a timely fashion, a change in coding pattern, unbilled services and other reasons for claim denials.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Claim Submission &amp; Rejection</h2>
+                        <p>
+                            Claims scrubbing or Claims submission process involves reviewing, before submitting the claims to payers.
+                            We utilize Practice Management Systems to check the data integrity.  We identify and correct the rejections
+                            before submitting to insurance payers.
+                        </p>
+                        <ul class="services-tab-list">
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Batch run from the RCM system to the clearinghouse system</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Updates wherever appropriate  </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Improved turnaround time (24-48 hours) and quality</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Avoid claim denials and get higher and quicker reimbursement</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Daily account support calls to address any issues</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Payment Posting</h2>
+                        <p>
+                            The payment posting process provides a view of the effectiveness of your revenue cycle.  It allows you to understand trends in reimbursements and perform analytics. Accurate payment posting offers clarity on the state of your revenue cycle, and, therefore, you must choose a highly efficient team to process payments.
+                            We process the following types of payments:
+                        </p>
+                        <ul class="services-tab-list">
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Patient Payments – We process all patient payments including co-pays, deductible, non-covered services or uninsured patients. </li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> EOB Payment Posting – Manual: While many payers provide their EOBs in electronic format there are a few who work with manual EOBs. The ODIS payment posting team processes these payments with a high degree of accuracy as per the rules of adjustments, write-offs and balance transfers.</li>
+                            <li>
+                                <i class="flaticon-arrow-pointing-to-right"></i> ERA Payment Posting – Electronic Remittance Advice (ERAs) usually carry information about large volumes of payments. The ERA files are run in batches by our experienced team and loaded into the revenue cycle systems. Any throw-outs are corrected immediately, and the batch totals are verified.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Denial Management</h2>
+                        <p>
+                            Our cloud-based denial management system helps to analyze remittance advice and identify opportunities
+                            for effective denial prevention. Benefit from a single, on-demand dashboard for managing claim denials
+                            and re-submission to drive the initial denial rates lesser than 4% in line with industry best practices.
+                            We ensure hassle-free health insurance claims resubmission for reimbursement approval.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Account Receivable</h2>
+                        <p>
+                            Accounts Receivable (AR) is the money owed to providers/medical billing companies for the medical care
+                            rendered to patients. It is important that the staff keep a tab on AR and make sure that claims are
+                            paid on time. In simple words, Accounts Receivable Management is a collection of processes such as
+                            identifying denied/unpaid claims, re-filing the corrected claims, minimizing AR days and eliminating aged AR.
+                            Manage Denials: Identifying the root cause for claim denials is one of the important processes in
+                            Accounts Receivable management. The staff must be highly skilled to analyze the reason for claim rejection,
+                            correct the claims and re-file without delay. Also, it is essential to examine denial patterns and
+                            find proper solutions to eradicate future occurrence of denials.
+                            <br>
+                            Timely Follow-up: Following up on AR on a timely basis is very important for uninterrupted cash flow.
+                            A good AR management team will keep track of all claims that have been filed and execute an action plan
+                            immediately if the claims are not paid within the 30-day time limit. The team will also ensure that
+                            there is no underpayment or overdue payment.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Coding Services</h2>
+                        <p>
+                            Medical coding is a key component and the foundation of all healthcare reimbursement. Every ODIS client
+                            receives a dedicated and experienced coder. Our coders are experts in a range of specialties and
+                            certified through nationally accredited programs. They understand the complex regulatory requirements
+                            and documentation necessary to apply the correct and compliant codes for payor submission.
+                            Our coding team continually enhances their coding competency—through educational programs,
+                            coding publications and resources, ensuring all health care records are coded to the highest
+                            standard in the industry.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 services-item">
+                    <div class="services-tab-content pl-20">
+                        <h2>Credentialing &amp; Enrollment</h2>
+                        <p>
+                            Physicians/providers must credential themselves, i.e., enroll and attest with the Payer’s network and authorized to provide services to patients who are members of the Payer’s plans. The credentialing process validates that a physician meets standards for delivering clinical care, wherein the Payer verifies the physician’s education, license, experience, certifications, affiliations, malpractice, any adverse clinical occurrences and training.
+                            <br>  Payers may delay or refuse payments to physicians who are not credentialed and enrolled with them. These impact the financials of the practice negatively. Our customized Payer credentialing and enrollment services support physicians in:
+                        </p>
+                        <ul class="services-tab-list">
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Starting or joining a new practice</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Switching from one physician practice group to another</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Join or become affiliated to new groups or practices</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Enroll with new payers</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Maintain their credentialing services.</li>
+                        </ul>
+                        <h3>Our credentialing process involves</h3>
+                        <ul class="services-tab-list">
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Collect all the data and documents required for filing credentialing applications from the physicians</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Understand the top payers to which the practice sends claim and initiate contact with the payers</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Apply the payer-specific formats after a due audit</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Timely follow-up with the Payer to track application status</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Obtain the enrollment number from the Payer and communicate the state of the application to the physician</li>
+                            <li><i class="flaticon-arrow-pointing-to-right"></i> Periodic updates of the document library for credentialing purposes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <style type="text/css">
+        .services-tab-content {
+            z-index: 1;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background-color: var(--whiteColor);
+            padding: 20px;
+            -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+            box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+            border-radius: 5px;
+            -webkit-transition: var(--transition);
+            transition: var(--transition);
+        }
+
+            .services-tab-content h2 {
+                color: var(--siteColor);
+            }
+    </style>
+
+
+    <footer class="footer-area footer-area-bg-two">
+        <div class="container">
+            <div class="footer-top-two">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer-contact-two">
+                            <div class="icon"><i class="flaticon-phone-call-1"></i></div>
+                            <div class="content">
+                                <h3><a href="tel:+18182756431">+1 (818) 275-6431</a></h3>
+                                <p> Give us a call </p>
+                            </div>
+                            <div class="right"><i class="flaticon-phone-call-1"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer-contact-two">
+                            <div class="icon"><i class="flaticon-email"></i></div>
+                            <div class="content">
+                                <h3><a href="mailto:info@odis-healthcare.com">info@odis-healthcare.com</a></h3>
+                                <p> Drop us a line</p>
+                            </div>
+                            <div class="right"><i class="flaticon-email"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="copy-right-text text-center">
+                    <p>
+                        Copyright 2024 Odis. All Rights Reserved by
+                        <a href="https://www.juaninfotech.com/" target="_blank">Juan Infotech</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./bpo4_files/magnific-popup.min.js.download"></script>
+    <script src="./bpo4_files/odometer.min.js.download"></script>
+    <script src="./bpo4_files/appear.min.js.download"></script>
+    <script src="./bpo4_files/meanmenu.min.js.download"></script>
+    <script src="./bpo4_files/owl.carousel.min.js.download"></script>
+    <script src="./bpo4_files/carousel-thumbs.js.download"></script>
+    <script src="./bpo4_files/wow.min.js.download"></script>
+    <script src="./bpo4_files/ajaxchimp.min.js.download"></script>
+    <script src="./bpo4_files/custom.js.download"></script><div class="go-top"><i class="bx bx-caret-up"></i></div>
+
+</body></html>

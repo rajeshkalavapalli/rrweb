@@ -15,30 +15,30 @@
 <div class="dashboard-container">
     <!-- Profile Overview -->
     <div class="profile-card">
-        <div class="profile-header">
-            <img src="path-to-profile-image.jpg" alt="Profile Picture" class="profile-img">
-            <h2>Priyanka</h2>
-            <p>Designation: Data entry Operator </p>
-            <p>Employee ID: E0003</p>
-        </div>
+      <div class="profile-header">
+        <!-- Use an input field to allow the user to upload their profile picture -->
+        <img src="path-to-profile-image.jpg" alt="Profile Picture" class="profile-img" id="profileImage">
+        <h2>Priyanka</h2> <br>
+        <p>Designation: Data Entry Operator</p> <br>
+        <p>Employee ID: E0003</p> <br>
+        <!-- File input for changing the profile image -->
+        <input type="file" id="uploadProfileImage" style="display: none;" accept="image/*">
+        <button id="changeProfileImageBtn">Change Profile Picture</button>
 
-        <!-- Profile Customization -->
-        <div class="profile-customization">
-            <!-- <h4>Profile Customization</h4> -->
-            <button class="customize-btn">Choose Background</button>
-            <input type="file" id="backgroundImageInput" style="display: none;">
-        </div>
+    </div>
+
     </div>
 
     <!-- Performance Metrics -->
     <div class="performance-card">
-        <h3>Performance Overview</h3>
-        <canvas id="performanceChart"></canvas>
-        <ul>
-            <li><strong>Daily Target:</strong> 12/20 tasks completed</li>
-            <li><strong>Weekly Target:</strong> 60/100 tasks completed</li>
-        </ul>
+      <h3>Performance Overview</h3>
+      <canvas id="performanceChart"></canvas>
+      <ul>
+          <li><strong>Daily Target:</strong> <span id="dailyProgress">12/20 tasks completed</span></li>
+          <li><strong>Weekly Target:</strong> <span id="weeklyProgress">60/100 tasks completed</span></li>
+      </ul>
     </div>
+
      <!-- Attendance and Explanation Section -->
      <div class="attendance-card">
       <h3>Attendance & Task Completion</h3>
@@ -156,5 +156,6 @@
   <script src="https://kit.fontawesome.com/6d74ef5722.js" crossorigin="anonymous"></script>
   <script src="../assets/JS/profile.js"></script>
   <script src="../assets/JS/leave.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 </html>

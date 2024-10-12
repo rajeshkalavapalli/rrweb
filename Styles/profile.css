@@ -469,3 +469,43 @@ button {
 button:hover {
   background-color: #4cae4c;
 }
+
+/* dark */
+
+/* Add this to your CSS file */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode button {
+  background-color: #444;
+  color: #fff;
+}
+
+
+/* profile  */
+
+/* Profile Image Container */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Styling the Profile Image */
+.profile-img {
+  width: 180px; /* Set the desired width of the profile picture */
+  height: 180px; /* Set the desired height */
+  border-radius: 50%; /* This makes the image circular like a photo frame */
+  object-fit: cover; /* Ensures the image covers the frame without stretching */
+  border: 2px  #333; /* Optional: Add a border to create a frame effect */
+}
+
+.profile-card{
+  font-weight: bolder;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 17px;
+}
