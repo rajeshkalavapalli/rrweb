@@ -1,0 +1,160 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="icon" href="../assets/logo.png">
+  <link rel="stylesheet" href="../Styles/profile.css">
+</head>
+<body>
+  <div class="toggle-container">
+    <button id="modeToggle">Switch to Dark Mode</button>
+</div>
+
+<div class="dashboard-container">
+    <!-- Profile Overview -->
+    <div class="profile-card">
+        <div class="profile-header">
+            <img src="path-to-profile-image.jpg" alt="Profile Picture" class="profile-img">
+            <h2>Priyanka</h2>
+            <p>Designation: Data entry Operator </p>
+            <p>Employee ID: E0003</p>
+        </div>
+
+        <!-- Profile Customization -->
+        <div class="profile-customization">
+            <!-- <h4>Profile Customization</h4> -->
+            <button class="customize-btn">Choose Background</button>
+            <input type="file" id="backgroundImageInput" style="display: none;">
+        </div>
+    </div>
+
+    <!-- Performance Metrics -->
+    <div class="performance-card">
+        <h3>Performance Overview</h3>
+        <canvas id="performanceChart"></canvas>
+        <ul>
+            <li><strong>Daily Target:</strong> 12/20 tasks completed</li>
+            <li><strong>Weekly Target:</strong> 60/100 tasks completed</li>
+        </ul>
+    </div>
+     <!-- Attendance and Explanation Section -->
+     <div class="attendance-card">
+      <h3>Attendance & Task Completion</h3>
+      <p><strong>Attendance:</strong> Present</p>
+      <p id="targetStatus"><strong>Status:</strong> Not Met (8 tasks remaining)</p>
+
+      <!-- Explanation TextArea - Hidden Initially -->
+      <div id="explanationSection" style="display: none;">
+          <label for="explanation">Explain why you couldn't meet the target:</label><br>
+          <textarea id="explanation" rows="4" cols="50" placeholder="Provide your explanation here..."></textarea>
+          <button id="submitExplanation">Submit Explanation</button>
+      </div>
+  </div>
+
+  
+    <!-- Notifications Section -->
+    <div class="notifications-card">
+        <h3>Notifications <span class="badge">3</span></h3>
+        <ul>
+          <li><strong>Meeting:</strong> Oct 15 - 2 PM</li>
+          <li><strong>Upcoming Deadline:</strong> Project Submission - Oct 19</li>
+          <li><strong>Training Session:</strong> software devlopment - Oct 22</li>
+          <li><strong>Birthdays:</strong>""</li>
+          <!-- <li><strong>Team Outing:</strong> Company Picnic - Oct 30</li> -->
+        </ul>
+    </div>
+    <div class="leave-card">
+      <h3>Leave Application</h3>
+  
+      <!-- Leave Type Dropdown -->
+      <label for="leaveType">Leave Type:</label>
+      <select id="leaveType" required>
+          <option value="">Select Leave Type</option>
+          <option value="planned">Planned Leave</option>
+          <option value="unplanned">Unplanned Leave</option>
+          <option value="sick">Sick Leave</option>
+      </select>
+  
+      <!-- Date Picker for Leave Dates -->
+      <label for="leaveDateStart">Start Date:</label>
+      <input type="date" id="leaveDateStart" required />
+  
+      <label for="leaveDateEnd">End Date:</label>
+      <input type="date" id="leaveDateEnd" required />
+  
+      <!-- Explanation Textarea (Hidden initially) -->
+      <div id="leaveExplanationSection" style="display: none;">
+          <label for="leaveExplanation">Explanation (If target is not met):</label>
+          <textarea id="leaveExplanation" rows="4" required></textarea>
+      </div>
+  
+      <!-- Submit Button -->
+      <button id="submitLeaveBtn">Submit Leave Request</button>
+      
+      <!-- Leave Days Count and Approval Status -->
+      <div id="leaveDaysCount" style="margin-top: 20px;"></div>
+      <div id="approvalStatus" style="margin-top: 20px;"></div>
+  </div>
+
+    
+
+    <!-- Achievements Section -->
+    <div class="achievements-card">
+        <h3>Achievements</h3>
+        <ul>
+            <li>🏆 Employee of the Month - September</li>
+            <li>🎖 5-Year Service Award</li>
+            <li>🚀 Completed 100% of tasks last week</li>
+        </ul>
+    </div>
+
+    <!-- Tools Section -->
+    <div class="tools-card">
+        <h3>Quick Access</h3>
+        <ul>
+            <li><a href="#">Internal HR System</a></li>
+            <li><a href="#">Project Management</a></li>
+            <li><a href="#">IT Support</a></li>
+        </ul>
+    </div>
+</div>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="address">
+        <h3>RR INNOVATIONS PVT LTD</h3>
+        <address>
+          2nd Floor,<br>
+          Garudadri Nagar,<br>
+          Royaloaks Furniture Beside,<br>
+          Mangalam Road,<br>
+          Tirupathi, AP-517507
+        </address>
+        <h4 class="address"><i class="fa-solid fa-phone"></i> +91-6302785278, 9962410589</h4>
+        <h4 class="address"><i class="fa-solid fa-envelope"></i> rrinnovation24@gmail.com</h4>
+      </div>
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="whom.html">WHOM WE SERVE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="carrier.html">CAREER</a></li>
+          <li><a href="talk.html">Let's Talk</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <h4>© Copy rights @ RR INNOVATIONS PVT LTD. Powered By Big Matrix</h4>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/6d74ef5722.js" crossorigin="anonymous"></script>
+  <script src="../assets/JS/profile.js"></script>
+  <script src="../assets/JS/leave.js"></script>
+</body>
+</html>
