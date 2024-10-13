@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,7 +14,7 @@
         <a href="../index.html"><img src="../assets/logo.png" alt="Logo" width="140px"></a>
       </div>
       <ul class="nav-links">
-        <li><a href="../index.html">HOME</a></li> <!-- Links to index.html in the parent directory -->
+        <li><a href="../index.html">HOME</a></li>
         <li class="dropdown">SERVICES <i class="fa-solid fa-caret-down"></i>
             <ul class="dropdown-content">
                 <li><a href="revenue.html">REVENUE CYCLE MANAGEMENT</a></li>
@@ -22,41 +22,43 @@
                 <li><a href="it.html">IT SERVICES</a></li>
             </ul>
         </li>
-        <!-- <li><a href="whom.html">WHOM WE SERVE</a></li>  -->
-        <li><a href="about.html">ABOUT</a></li> <!-- Links to about.html in the same directory -->
-        <li><a href="carrier.html">CAREER</a></li> <!-- Links to carrier.html in the same directory -->
-        <li><a href="login.html">LOGIN</a></li> <!-- Self-linking, optional -->
-    </ul>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="carrier.html">CAREER</a></li>
+        <li class="dropdown">LOGIN <i class="fa-solid fa-caret-down"></i>
+          <ul class="dropdown-content">
+              <li><a href="#" id="adminLogin">Admin Login</a></li>
+              <li><a href="#" id="associateLogin">Associate Login</a></li>
+          </ul>
+        </li>
+      </ul>
       <div class="talk">
         <a href="talk.html">Let's Talk</a>
       </div>
     </nav>
   </header>
 
- <div class="login-container">
   <div class="login">
-    <h2>USER LOGIN</h2>
-    <form action="" > <!-- Add method to specify form submission type -->
-      <div class="input-group"> <!-- Wrap input elements in a class for styling -->
+    <h2 id="loginTitle">USER LOGIN</h2> <!-- Add this ID to allow JS to update the title -->
+    <form id="loginForm" onsubmit="return false;"> 
+      <div class="input-group">
         <label for="Username">Username</label>
         <input type="text" id="Username" name="Username" required>
       </div>
-      <div class="input-group"> <!-- Wrap input elements in a class for styling -->
+      <div class="input-group">
         <label for="Password">Password</label>
         <input type="password" id="password" name="password" required>
       </div>
-      <button type="submit">Login</button>
+      <button type="submit" id="loginButton">Login</button>
       <div class="checkbox">
         <input type="checkbox" id="rememberMe">
         <label for="rememberMe">Remember Me</label>
-    </div>
-    <div class="checkbox">
-      <a href="#">Forgot Password?</a> <!-- This anchor will move right -->
-    </div>
+      </div>
+      <div class="checkbox">
+        <a href="#">Forgot Password?</a>
+      </div>
     </form>
   </div>
- </div>
-  
+  </div>
 
   <footer>
     <div class="footer-container">
@@ -75,13 +77,12 @@
       <div class="quick-links">
         <h3>Quick Links</h3>
         <ul>
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <!-- <li><a href="whom.html">WHOM WE SERVE</a></li> -->
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="carrier.html">CAREER</a></li>
-            <li><a href="talk.html">Let's Talk</a></li>
-          </ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="carrier.html">CAREER</a></li>
+          <li><a href="talk.html">Let's Talk</a></li>
+        </ul>
       </div>
     </div>
     <div class="copy">
@@ -90,9 +91,7 @@
   </footer>
 
   <script src="https://kit.fontawesome.com/6d74ef5722.js" crossorigin="anonymous"></script>
-  <!-- below is for java script  -->
   <script src="../assets/JS/login.js"></script>  
-  <!-- below is for node.js -->
   <script src="../assets/JS/loginn.js"></script>
 </body>
 </html>
