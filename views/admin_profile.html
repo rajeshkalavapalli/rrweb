@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../Styles/admin.css">
+    <link rel="icon" href="../assets/logo.png">
+    <script src="https://kit.fontawesome.com/6d74ef5722.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>working....</h1>
+    <header>
+        <nav class="navibar">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/logo.png" alt="Logo" width="140px"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="logout.html">LOGOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="dashboard-container">
+            <h1>Admin Dashboard</h1>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h2>Total Users</h2>
+                    <p>150</p>
+                </div>
+                <div class="stat-box">
+                    <h2>Active Sessions</h2>
+                    <p>75</p>
+                </div>
+                <div class="stat-box">
+                    <h2>New Registrations</h2>
+                    <p>10</p>
+                </div>
+            </div>
+
+            <div class="management-reports-container">
+                <div class="user-management">
+                    <h2>User Management</h2>
+                    <button id="add-user-btn">Add User</button>
+                    <table class="user-table">
+                        <thead>
+                            <tr>
+                                <th>User ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="user-table-body">
+                            <tr>
+                                <td>1</td>
+                                <td>John Doe</td>
+                                <td>john@example.com</td>
+                                <td>Active</td>
+                                <td>
+                                    <button class="edit-btn">Edit</button>
+                                    <button class="delete-btn">Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jane Smith</td>
+                                <td>jane@example.com</td>
+                                <td>Inactive</td>
+                                <td>
+                                    <button class="edit-btn">Edit</button>
+                                    <button class="delete-btn">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+                <div class="reports-section">
+                    <h2>Reports</h2>
+                    <div class="report-item">
+                        <p>Total Sales: <strong>$10,000</strong></p>
+                    </div>
+                    <div class="report-item">
+                        <p>Total Revenue: <strong>$15,000</strong></p>
+                    </div>
+                    <div class="report-item">
+                        <p>Monthly Reports: <a href="monthly_report.html">View Reports</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <h4>© 2024 RR INNOVATIONS PVT LTD. All Rights Reserved. Powered by Big Matrix</h4>
+        </div>
+        
+    </footer>
+    <script src="../assets/JS/admin.js"></script>
 </body>
 </html>
